@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   /* background-color: grey; */
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 header {
@@ -122,13 +122,14 @@ input {
 
 .box-1 {
   width: 100%;
-  height: 100vh;
+  min-height: 98vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   /* background-color: black; */
   overflow: hidden;
+  margin-bottom: 1rem;
 }
 
 .main-heading {
@@ -194,4 +195,20 @@ input {
 .main-bth .fa-magnifying-glass {
   color: white;
   font-size: 1rem;
+}
+
+.box-2 {
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  /* gap: 1.5rem; */
+}
+
+.box-2-img {
+  width: 24rem;
+  margin: 2.5rem 1rem;
 }
